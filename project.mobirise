@@ -45,7 +45,7 @@
         "title": "Home",
         "meta_descr": "",
         "header_custom": "",
-        "footer_custom": "",
+        "footer_custom": "<!-- WhatsHelp.io widget -->\n<script type=\"text/javascript\">\n    (function () {\n        var options = {\n            facebook: \"430814446936888\", // Facebook page ID\n            whatsapp: \"+306987772883\", // WhatsApp number\n            call_to_action: \"Message us\", // Call to action\n            button_color: \"#000000\", // Color of button\n            position: \"right\", // Position may be 'right' or 'left'\n            order: \"facebook,whatsapp\", // Order of buttons\n        };\n        var proto = document.location.protocol, host = \"whatshelp.io\", url = proto + \"//static.\" + host;\n        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';\n        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };\n        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);\n    })();\n</script>\n<!-- /WhatsHelp.io widget -->",
         "html_before": ""
       },
       "components": [
